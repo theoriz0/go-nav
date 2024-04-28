@@ -1,0 +1,28 @@
+- type: docSidebar
+  sidebarId: tutorialSidebar
+  position: left
+  label: Tutorial
+- type: dropdown
+  label: Dropdown1
+  position: left
+  items:
+    - label: Facebook
+      href: https://www.facebook.com
+    - type: doc
+      label: Social
+      docId: tutorial-basics/congratulations
+- type: dropdown
+  label: Dropdown2
+  position: left
+  items:
+    - label: Facebook
+      href: https://www.facebook.com
+    - type: doc
+      label: Social
+      docId: tutorial-basics/congratulations
+- to: /blog
+  label: Blog
+  position: right
+- href: https://github.com/theoriz0/go-nav
+  label: GitHub
+  position: right
