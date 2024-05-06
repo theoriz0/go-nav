@@ -7,6 +7,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ### Develop and deploy to netify
 When branch main is updated, netify will update the site automatically.
 Use `dev` branch to draft.
+To save netlify build time, run `npm run build` locally and check if there's any error before pushing main to github.
 Run `git rebase dev main` to sync dev to main.
 Then push main to github.
 
