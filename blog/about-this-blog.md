@@ -31,4 +31,4 @@ git submodule update --init --recursive
 
 ## Hugo 常用操作
 
-[Hugo cheatsheet](/posts/my-hugo-cheatsheet/)
+[Hugo cheatsheet](/blog/my-hugo-cheatsheet/)

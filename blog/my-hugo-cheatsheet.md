@@ -31,10 +31,10 @@ hugo serve
 ## Hugo 内链
 
 ```markdown
-[Hugo cheatsheet](/posts/my-hugo-cheatsheet/)
+[Hugo cheatsheet](/blog/my-hugo-cheatsheet/)
 ```
 
-效果：[Hugo cheatsheet](/posts/my-hugo-cheatsheet/)
+效果：[Hugo cheatsheet](/blog/my-hugo-cheatsheet/)
 
 
 ## wsl无法预览问题解决
@@ -45,4 +45,4 @@ hugo serve
 hugo server --bind 172.20.3.63 --baseURL=http://172.20.3.63
 ```
 
-ip地址可以通过 [golang-wsl](/posts/golang-wsl2-centos8-setup/#配置clash或其他代理软件) 中的 ```proxy ip``` 命令获取
+ip地址可以通过 [golang-wsl](/docs/inbox/golang-wsl2-centos8-setup#配置clash或其他代理软件) 中的 ```proxy ip``` 命令获取
