@@ -76,10 +76,9 @@ const config = {
         },
         items: [
           {
-            "type": "docSidebar",
-            "sidebarId": "tutorialSidebar",
             "position": "left",
-            "label": "Tutorial"
+            "label": "Nav",
+            "to": "/useful-links",
           },
           {
             "type": "docSidebar",
