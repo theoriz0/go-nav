@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://go-nav.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -76,54 +76,60 @@ const config = {
         },
         items: [
           {
-              "type": "docSidebar",
-              "sidebarId": "tutorialSidebar",
-              "position": "left",
-              "label": "Tutorial"
+            "type": "docSidebar",
+            "sidebarId": "tutorialSidebar",
+            "position": "left",
+            "label": "Tutorial"
           },
           {
-              "type": "dropdown",
-              "label": "Dropdown1",
-              "position": "left",
-              "items": [
-                  {
-                      "label": "Facebook",
-                      "href": "https://www.facebook.com"
-                  },
-                  {
-                      "type": "doc",
-                      "label": "Social",
-                      "docId": "tutorial-basics/congratulations"
-                  }
-              ]
+            "type": "docSidebar",
+            "sidebarId": "inbox",
+            "position": "left",
+            "label": "Inbox"
           },
           {
-              "type": "dropdown",
-              "label": "Dropdown2",
-              "position": "left",
-              "items": [
-                  {
-                      "label": "Facebook",
-                      "href": "https://www.facebook.com"
-                  },
-                  {
-                      "type": "doc",
-                      "label": "Social",
-                      "docId": "tutorial-basics/congratulations"
-                  }
-              ]
+            "type": "dropdown",
+            "label": "Dropdown1",
+            "position": "left",
+            "items": [
+              {
+                "label": "Facebook",
+                "href": "https://www.facebook.com"
+              },
+              {
+                "type": "doc",
+                "label": "Social",
+                "docId": "tutorial/tutorial-basics/congratulations"
+              }
+            ]
           },
           {
-              "to": "/blog",
-              "label": "Blog",
-              "position": "right"
+            "type": "dropdown",
+            "label": "Dropdown2",
+            "position": "left",
+            "items": [
+              {
+                "label": "Facebook",
+                "href": "https://www.facebook.com"
+              },
+              {
+                "type": "doc",
+                "label": "Social",
+                "docId": "tutorial/tutorial-basics/congratulations"
+              }
+            ]
           },
           {
-              "href": "https://github.com/theoriz0/go-nav",
-              "label": "GitHub",
-              "position": "right"
+            "to": "/blog",
+            "label": "Blog",
+            "position": "right"
+          },
+          {
+            "href": "https://github.com/theoriz0/go-nav",
+            "label": "GitHub",
+            "position": "right"
           }
-      ],
+        ],
       },
       footer: {
         style: 'dark',
