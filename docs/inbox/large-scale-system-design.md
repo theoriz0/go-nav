@@ -1,17 +1,16 @@
-+++
-title = "系统设计面试指南（EN）"
-date = "2023-11-09T16:36:29+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["后端", "系统设计"]
-keywords = ["", ""]
-description = "多问澄清问题。确保自己搞清楚了场景。"
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+---
+title : "系统设计面试指南（EN）"
+date : "2023-11-09T16:36:29+08:00"
+author : ""
+authorTwitter : "" #do not include @
+cover : ""
+tags : ["后端", "系统设计"]
+description : "多问澄清问题。确保自己搞清楚了场景。"
+showFullContent : false
+readingTime : false
+hideComments : false
+color : "" #color from the theme settings
+---
 
 
 ## How to design large-scale systems
