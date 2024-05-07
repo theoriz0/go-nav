@@ -76,11 +76,6 @@ const config = {
         },
         items: [
           {
-            "position": "left",
-            "label": "Nav",
-            "to": "/useful-links",
-          },
-          {
             "type": "docSidebar",
             "sidebarId": "inbox",
             "position": "left",
