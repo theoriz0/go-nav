@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { topLinks, mainLinks } from '../data/links';
+import { topLinks, mainLinks, goodProjects } from '../data/links';
 
 
 const listItems = (links) => {
@@ -8,8 +8,8 @@ const listItems = (links) => {
         <li>
             <a href={item.link}>
                 <p>
-                    <b>{item.title}</b>
-                    <p>{item.desc}</p>
+                    <b>{item.title} </b>
+                    {item.desc}
                 </p>
             </a>
         </li>
@@ -29,7 +29,7 @@ export default function Hello() {
                 {listItems(topLinks)}
                 
             </ul>
-            <hr></hr>
+            {/* <hr></hr>
             <ul
                 style={{
                     display: 'grid',
@@ -38,6 +38,18 @@ export default function Hello() {
                     fontSize: '20px',
                 }}>
                 {listItems(mainLinks)}
+                
+            </ul> */}
+            <hr></hr>
+            <h2>Good projects</h2>
+            <ul
+                style={{
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
+                    listStyleType: 'none',
+                    fontSize: '20px',
+                }}>
+                {listItems(goodProjects)}
                 
             </ul>
         </Layout>
