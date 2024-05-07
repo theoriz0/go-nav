@@ -12,6 +12,10 @@ export const topLinks = [{
   link: 'https://juejin.cn/book/7176608782871429175',
 }, {
   id: 3,
+  title: '李文周的博客',
+  link: 'https://www.liwenzhou.com/posts/Go/golang-menu/',
+}, {
+  id: 4,
   title: 'Docusaurus 文档',
   link: 'https://docusaurus.io/docs',
 }];
