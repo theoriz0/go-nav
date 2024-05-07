@@ -1,9 +1,5 @@
 ---
 title: "Golang WSL2 CentOS8 开发环境配置指南"
-date: "2023-01-11T22:32:58+08:00"
-author: "theoriz0"
-authorTwitter: "" #do not include @
-cover: ""
 tags: ["开发环境"]
 keywords: ["WSL2", "CentOS8", "Go"]
 description: "配置 WSL2 下 CentOS8 Go 语言开发环境。解决代理、内存、默认用户等问题。其他 Linux 发行版亦可参考。"
@@ -12,6 +8,8 @@ readingTime: false
 hideComments: false
 color: "" #color from the theme settings
 ---
+
+# Golang WSL2 CentOS8 开发环境配置指南
 
 ## 获取 WSL CentOS8
 

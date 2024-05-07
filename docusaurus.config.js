@@ -77,12 +77,6 @@ const config = {
         items: [
           {
             "type": "docSidebar",
-            "sidebarId": "tutorialSidebar",
-            "position": "left",
-            "label": "Tutorial"
-          },
-          {
-            "type": "docSidebar",
             "sidebarId": "inbox",
             "position": "left",
             "label": "Inbox"
