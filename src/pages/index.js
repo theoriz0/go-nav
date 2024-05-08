@@ -41,7 +41,7 @@ export default function Hello() {
                 
             </ul> */}
             <hr></hr>
-            <h2>Good projects</h2>
+            <h2>Go projects</h2>
             <ul
                 style={{
                     display: 'grid',
