@@ -36,14 +36,17 @@ export const packages = [{
   id: 2,
   title: 'viper',
   link: 'https://github.com/spf13/viper',
+  docLink: '',
 }, {
   id: 3,
   title: 'gin',
-  link: 'https://github.com/gin-gonic/gin',
+  githubLink: 'https://github.com/gin-gonic/gin',
+  link: 'https://gin-gonic.com/docs/',
 }, {
   id: 4,
   title: 'gorm',
-  link: 'https://github.com/go-gorm/gorm',
+  githubLink: 'https://github.com/go-gorm/gorm',
+  link: 'https://gorm.io/docs/',
 }, {
   id: 5,
   title: 'pflag',
