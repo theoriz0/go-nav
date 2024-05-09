@@ -6,7 +6,7 @@ import { topLinks, mainLinks, goodProjects, packages } from '../data/links';
 const listItems = (links) => {
     return links.map(item =>
         <li>
-            <a href={item.link}>
+            <a href={item.link} target='_blank'>
                 <p>
                     <b>{item.title} </b>
                     {item.desc}
