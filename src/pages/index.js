@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { topLinks, mainLinks, goodProjects } from '../data/links';
+import { topLinks, mainLinks, goodProjects, packages } from '../data/links';
 
 
 const listItems = (links) => {
     return links.map(item =>
         <li>
-            <a href={item.link}>
+            <a href={item.link} target='_blank'>
                 <p>
                     <b>{item.title} </b>
                     {item.desc}
@@ -29,7 +29,8 @@ export default function Hello() {
                 {listItems(topLinks)}
                 
             </ul>
-            {/* <hr></hr>
+            <hr></hr>
+            <h2>Packages</h2>
             <ul
                 style={{
                     display: 'grid',
@@ -37,11 +38,11 @@ export default function Hello() {
                     listStyleType: 'none',
                     fontSize: '20px',
                 }}>
-                {listItems(mainLinks)}
+                {listItems(packages)}
                 
-            </ul> */}
+            </ul>
             <hr></hr>
-            <h2>Good projects</h2>
+            <h2>Go projects</h2>
             <ul
                 style={{
                     display: 'grid',
