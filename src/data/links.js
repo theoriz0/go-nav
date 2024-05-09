@@ -16,9 +16,43 @@ export const topLinks = [{
   link: 'https://www.liwenzhou.com/posts/Go/golang-menu/',
 }, {
   id: 4,
+  title: 'go语言必知必会',
+  link: 'https://golang.dbwu.tech/',
+}, {
+  id: 5,
   title: 'Docusaurus 文档',
   link: 'https://docusaurus.io/docs',
 }];
+
+export const packages = [{
+  id: 0,
+  title: 'testify',
+  link: 'https://github.com/stretchr/testify',
+}, {
+  id: 1,
+  title: 'zap',
+  link: 'https://github.com/uber-go/zap',
+}, {
+  id: 2,
+  title: 'viper',
+  link: 'https://github.com/spf13/viper',
+}, {
+  id: 3,
+  title: 'gin',
+  link: 'https://github.com/gin-gonic/gin',
+}, {
+  id: 4,
+  title: 'gorm',
+  link: 'https://github.com/go-gorm/gorm',
+}, {
+  id: 5,
+  title: 'pflag',
+  link: 'https://github.com/spf13/pflag',
+},{
+  id: 6,
+  title: 'cobra',
+  link: 'https://github.com/spf13/cobra',
+}]
 
 export const mainLinks = [{
   id: 0,

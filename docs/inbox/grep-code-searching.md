@@ -1,17 +1,9 @@
-+++
-title = "Grep 命令检索代码"
-date = "2023-11-15T11:59:46+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["Shell", ""]
-keywords = ["", ""]
-description = "快速找到其他项目中的代码参考范例。"
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+---
+title: "Grep 命令检索代码"
+description: "快速找到其他项目中的代码参考范例。"
+---
+
+# Grep 命令检索代码
 
 ## Grep 常用选项介绍
 
