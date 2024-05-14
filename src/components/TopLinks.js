@@ -4,7 +4,7 @@ import styles from './List.module.css';
 
 export default function TopLinks({ links }) {
     const listitems = links.map(item =>
-        <Item key={item.key} link={item.link} title={item.title} desc={item.desc} img={item.img}/>
+        <Item key={item.key} link={item.link} title={item.title} desc={item.desc}/>
     );
     return (
         <div className={styles.toplinks}>
