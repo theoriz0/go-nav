@@ -8,7 +8,7 @@ export const topLinks = [{
   link: 'https://go.dev/doc/cmd',
 }, {
   id: 2,
-  title: '  从零开发企业级 Go 应用',
+  title: '从零开发企业级 Go 应用',
   link: 'https://juejin.cn/book/7176608782871429175',
 }, {
   id: 3,
@@ -20,6 +20,14 @@ export const topLinks = [{
   link: 'https://golang.dbwu.tech/',
 }, {
   id: 5,
+  title: 'Go Web Examples',
+  link: 'https://gowebexamples.com/',
+},{
+  id: 6,
+  title: 'Go By Example',
+  link: 'https://gobyexample.com/',
+},{
+  id: 99,
   title: 'Docusaurus 文档',
   link: 'https://docusaurus.io/docs',
 }];
