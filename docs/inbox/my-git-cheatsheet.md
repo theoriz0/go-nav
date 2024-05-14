@@ -1,17 +1,7 @@
-+++
-title = "My Git Cheatsheet"
-date = "2023-11-05T16:45:52+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["开发", "工具"]
-keywords = ["", ""]
-description = "常用 Git 命令"
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+---
+sidebar_position: 7
+---
+# Git 速查
 
 ## git stash
 

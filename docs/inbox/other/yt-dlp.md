@@ -1,17 +1,4 @@
-+++
-title = "yt-dlp常用命令"
-date = "2023-11-15T22:31:19+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+# yt-dlp常用命令
 
 ## list all available formats
 `yt-dlp -F [Link]`

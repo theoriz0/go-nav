@@ -1,7 +1,8 @@
 ---
-title: "Useful nc Examples"
+title: "nc 网络调试速查"
 date: 2023-11-21T12:40:52+08:00
 draft: true
+sidebar_position: 11
 ---
 
 1) Basic Connection Establishment

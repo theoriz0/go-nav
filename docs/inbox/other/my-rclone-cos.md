@@ -1,17 +1,4 @@
-+++
-title = "通过Rclone + 对象存储实现同步盘"
-date = "2023-11-09T10:23:52+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["工具", "私有云"]
-keywords = ["", ""]
-description = "命令行比GUI方便多了"
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+# 通过Rclone + 对象存储实现同步盘
 
 ## 下载安装
 https://rclone.org/downloads/
