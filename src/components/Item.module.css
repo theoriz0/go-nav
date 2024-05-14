@@ -1,3 +1,39 @@
-.test {
-  font-size: medium;
+.item {
+  padding-top: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 12%;
+}
+
+.link {
+  height: 21px;
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 16px;
+  top: 1px;
+  border: 0px;
+  margin-inline-start: initial;
+  margin-inline-end: 8px;
+  align-self: center;
+}
+
+.title {
+  padding-inline-end: 1px;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: none;
+  width: 184px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--neutral-foreground-rest);
 }
