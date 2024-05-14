@@ -1,17 +1,9 @@
-+++
-title = "My Docker Cheatsheet"
-date = "2023-11-09T17:19:34+08:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-+++
+---
+sidebar_position: 5
+---
+
+# Docker 常用速查
+
 
 ## mysql
 
@@ -35,7 +27,7 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
 
 [](https://hub.docker.com/_/mysql/)
 
-redis
+## redis
 
 ```bash
 docker run -p 6379:6379 --name myredis -d redis:7.0.12  --requirepass my-secret-pw

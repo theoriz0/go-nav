@@ -1,6 +1,7 @@
 ---
-title: "Grep 命令检索代码"
+title: "Grep 检索代码"
 description: "快速找到其他项目中的代码参考范例。"
+sidebar_position: 10
 ---
 
 # Grep 命令检索代码

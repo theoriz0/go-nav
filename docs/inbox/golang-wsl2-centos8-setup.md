@@ -7,6 +7,7 @@ showFullContent: false
 readingTime: false
 hideComments: false
 color: "" #color from the theme settings
+sidebar_position: 2
 ---
 
 # Golang WSL2 CentOS8 开发环境配置指南

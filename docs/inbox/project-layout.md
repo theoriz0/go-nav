@@ -1,4 +1,8 @@
-# Go项目标准布局
+---
+sidebar_position: 1
+---
+
+# Go 项目标准布局
 
 来源：[project-layout](https://github.com/golang-standards/project-layout/)
 

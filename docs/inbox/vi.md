@@ -1,4 +1,7 @@
-# vi
+---
+sidebar_position: 9
+---
+# vi 速查
 
 vi basically operates in 3 modes, namely :
 

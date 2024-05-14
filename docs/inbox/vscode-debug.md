@@ -1,5 +1,6 @@
 ---
 title: "Golang VSCode launch.json 配置"
+sidebar_position: 3
 ---
 
 # Golang VSCode launch.json 配置
