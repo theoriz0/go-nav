@@ -1,11 +1,11 @@
 ---
-title: "FFmpeg 常用速查"
+title: "FFmpeg 速查"
 date: 2023-11-05T15:45:31+08:00
 draft: false
 sidebar_position: 8
 ---
 
-# ffmpeg
+# FFmpeg 速查
 
 ## 格式转换
 
