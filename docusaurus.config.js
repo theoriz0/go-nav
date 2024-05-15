@@ -82,6 +82,10 @@ const config = {
             "label": "Inbox"
           },
           {
+            "label": "Topgoer",
+            "to": "/topgoer",
+          },
+          {
             "type": "dropdown",
             "label": "Dropdown1",
             "position": "left",
