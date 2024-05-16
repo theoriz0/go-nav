@@ -20,19 +20,19 @@ sidebar_position: 6
 
 ## 命令
 
-> 测试nginx配置文件是否正常
+测试nginx配置文件是否正常
 
 ```
 nginx -t
 ```
 
-> 启动nginx服务器
+启动nginx服务器
 
 ```
 nginx
 ```
 
-> nginx其他命令
+nginx -s
 
 ```
 nginx -s signal
@@ -124,7 +124,7 @@ location / {
 
 以上写法的意思就是，将来同一个url访问我们的服务时，服务可以由backend中的服务器按照某种特定规则轮流提供。
 
-> ngixn负载均衡的五种算法
+### ngixn负载均衡的五种算法
 
 （1）round robin 轮询 （默认） 按时间顺序依次将请求分配到各个后台服务器中，挂掉的服务器自动从列表中剔除
 
