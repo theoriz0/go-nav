@@ -2,7 +2,7 @@ export const topLinks = [{
   id: 0,
   title: 'go.dev',
   link: 'https://go.dev/',
-  }, {
+}, {
   id: 1,
   title: 'go command doc',
   link: 'https://go.dev/doc/cmd',
@@ -22,11 +22,11 @@ export const topLinks = [{
   id: 5,
   title: 'Go Web Examples',
   link: 'https://gowebexamples.com/',
-},{
+}, {
   id: 6,
   title: 'Go By Example',
   link: 'https://gobyexample.com/',
-},{
+}, {
   id: 99,
   title: 'Docusaurus 文档',
   link: 'https://docusaurus.io/docs',
@@ -51,6 +51,12 @@ export const packages = [{
   githubLink: 'https://github.com/gin-gonic/gin',
   link: 'https://gin-gonic.com/docs/',
 }, {
+  id: 31,
+  title: 'gin-middleware',
+  githubLink: 'https://github.com/orgs/gin-contrib/repositories',
+  link: 'https://github.com/orgs/gin-contrib/repositories',
+},
+{
   id: 4,
   title: 'gorm',
   githubLink: 'https://github.com/go-gorm/gorm',
@@ -59,7 +65,7 @@ export const packages = [{
   id: 5,
   title: 'pflag',
   link: 'https://github.com/spf13/pflag',
-},{
+}, {
   id: 6,
   title: 'cobra',
   link: 'https://github.com/spf13/cobra',
@@ -136,6 +142,11 @@ export const goodProjects = [{
   title: 'ChatGPT-plus',
   link: 'https://github.com/yangjian102621/chatgpt-plus',
   desc: 'AI助手平台',
+},{
+  id: 7,
+  title: 'Dragonfly',
+  link: 'https://github.com/dragonflyoss/Dragonfly2',
+  desc: 'P2P文件分发系统',
 }, {
   id: 4,
   title: 'Github top 100 | Go',
