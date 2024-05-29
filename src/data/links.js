@@ -142,6 +142,11 @@ export const goodProjects = [{
   title: 'ChatGPT-plus',
   link: 'https://github.com/yangjian102621/chatgpt-plus',
   desc: 'AI助手平台',
+},{
+  id: 7,
+  title: 'Dragonfly',
+  link: 'https://github.com/dragonflyoss/Dragonfly2',
+  desc: 'P2P文件分发系统',
 }, {
   id: 4,
   title: 'Github top 100 | Go',

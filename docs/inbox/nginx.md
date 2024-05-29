@@ -20,7 +20,7 @@ sidebar_position: 6
 
 ## 命令
 
-测试nginx配置文件是否正常
+测试nginx配置文件是否正常(配置文件默认在：/etc/nginx/nginx.conf)
 
 ```
 nginx -t
